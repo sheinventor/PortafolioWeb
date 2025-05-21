@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-color: #2e1b2c;
+  background-color: #3b163b;
   color: white;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -10,13 +10,16 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   font-size: 1.2em;
   background: transparent;
 }
 
 .lang-switch a {
+  margin-left: auto;
+  text-align: right;
   color: white;
   margin: 0 8px;
   text-decoration: none;
