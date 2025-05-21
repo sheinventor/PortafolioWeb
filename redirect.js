@@ -9,6 +9,6 @@ if (!localStorage.getItem('languageRedirected')) {
   } else if (lang.startsWith('en')) {
     window.location.href = 'en.html';
   } else {
-    window.location.href = 'index.html';
+    window.location.href = 'es.html';
   }
 }
