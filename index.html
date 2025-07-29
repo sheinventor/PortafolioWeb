@@ -85,6 +85,14 @@
       75% { transform: rotate(5deg); }
       100% { transform: rotate(0deg); }
     }  
+
+    #bienvenida {
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 18px;
+    background-color: #4a1b4a;
+    color: white;
+    }
     footer {
       text-align: center;
       padding: 30px 20px;
@@ -118,7 +126,9 @@
     
   </style>
 </head>
-
+<section id="bienvenida">
+  <p data-i18n="welcomeMessage">Bienvenid@ al gabinete de curiosidades de SheInventor: anécdotas, diseño, ciencia y más.</p>
+</section>
 <body>
 
   <header>
@@ -130,6 +140,7 @@
   </header>
 
   <main>
+
     <div class="menu">
       <button data-i18n="comics" onclick="location.href='./Comics-Spotify/index.html'">Cómics</button>
       <button data-i18n="downloads"onclick="location.href='./Biblioteca-Sheinventor/index.html'">Descargas</button>
