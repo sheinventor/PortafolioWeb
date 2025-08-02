@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* hr {
+    border: 1px solid #ecbbe7;
+} */
+
+.index-header{
+    display: flex;
+    height: 10rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    /*background-color: #3b163b;
+    color: white;*/
+}
+
+.logo {
+    margin-right: 1rem;
+    width: 15vh;
+}
+
+.titulo {
+    margin-right: auto; 
+    padding-left: 2rem;
+}
+
+.idioma{
+    display: flex;
+}
+
+.idioma span{
+    padding: 0.15rem;
+}
+
+.idioma p{
+    padding: 0.1rem;
+}
+
+.index-main {
+    height: 80vh;
+    /* background-color: #632c58;
+    color: white; */
+}
+
+.index-main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.menu{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 940px;
+}
+
+.menu article{  
+    height: 150px;  
+    min-width: 400px;  
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0.5rem;
+}
+
+.btn-cambiar{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cambiar article{
+    padding-left: 1rem;
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-foco-cambiar {
+    width: 250px;
+    height: 315px;
+}
+
+#img-click-me{
+    width: 150px;
+    height: 150px;
+    animation: pulse 1.2s infinite;
+}
+
+.ocultar{
+    visibility: hidden;
+}
+
+footer{
+    height: auto;
+    font-size: 15px;
+    /*color: white;
+    background-color: #3b163b;*/
+}
+
+footer div{
+    display: block;
+    width: 70vw;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+footer div p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-buttons a{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid #fdf6fc;
+    border-radius: 8px;
+    background-color: #ecbbe7;
+}
+
+.footer-buttons a img {
+    width: 25px;
+    padding-right: 5px;
+}
+
+.agitar {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(-5deg); }
+    75% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+} 
+
+/* Animación de pulsación */
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 0.6; }
+    50% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.6; }
+}
+
+.lang-selected{
+    font-weight: bold;
+}
