@@ -1,0 +1,27 @@
+.dark {
+    background-color: #3b163b;
+    color: white;
+}
+
+.dark-body{
+    background-color: #632c58;
+    color: white;
+}
+
+.dark-hr {
+    border: 1px solid #ecbbe7;
+}
+
+.ligth {
+    background-color: #f5d9f4;
+    color: #3f1336;
+}
+
+.ligth-body{
+    background-color: #fdf6fc;
+    color: #3f1336;
+}
+
+.ligth-hr {
+    border: 1px solid #cd68c0;
+}
