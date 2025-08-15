@@ -8,6 +8,11 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
 /* hr {
     border: 1px solid #ecbbe7;
 } */
@@ -40,6 +45,10 @@ body {
     padding: 0.15rem;
 }
 
+.idioma span:hover{
+    cursor: pointer;
+}
+
 .idioma p{
     padding: 0.1rem;
 }
@@ -69,12 +78,33 @@ body {
 .menu article{  
     height: 150px;  
     min-width: 400px;  
-    border: 1px solid #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
     margin: 0.5rem;
+    font-size: 20px;
+}
+
+.menu article a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu article a:hover {
+    animation: shake 0.5s;
+}
+
+.menu article img {
+    width: auto;
+    height: 150px;
+    margin: auto;
+}
+
+.menu article p {
+    margin: auto;
 }
 
 .btn-cambiar{
@@ -107,6 +137,7 @@ body {
 
 .ocultar{
     visibility: hidden;
+    transition: visibility 0.08s;
 }
 
 footer{
@@ -138,7 +169,6 @@ footer div p{
 
 .footer-buttons a{
     display: flex;
-    font-weight: bold;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -147,6 +177,10 @@ footer div p{
     border: 1px solid #fdf6fc;
     border-radius: 8px;
     background-color: #ecbbe7;
+}
+
+.footer-buttons a p {
+    margin: auto;
 }
 
 .footer-buttons a img {

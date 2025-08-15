@@ -15,7 +15,8 @@
       "footerText": "Want to support this project? Buy me a coffee ☕ or grab some merch 🎁",
       "donate": "Donate on Ko-fi",
       "shop": "See Merch",
-      "welcomeMessage": "Welcome to the cabinet of curiosities of SheInventor: anecdotes, design, science and more.",
+      "welcomeMessage": "Welcome to the cabinet of curiosities of SheInventor",
+      "welcomeMessage2": "anecdotes, design, science and more.",
       "contactMe": "Contact me"
     },
     "fr": {
@@ -24,7 +25,8 @@
       "footerText": "Vous voulez soutenir ce projet ? Offrez-moi un café ☕ ou achetez du merch 🎁",
       "donate": "Faire un don sur Ko-fi",
       "shop": "Voir le Merch",
-      "welcomeMessage": "Bienvenue dans le cabinet de curiosités de SheInventor : anecdotes, design, science et plus encore.",
+      "welcomeMessage": "Bienvenue dans le cabinet de curiosités de SheInventor",
+      "welcomeMessage2": "anecdotes, design, science et plus encore.",
       "contactMe": "Contactez-moi"
     }
   }

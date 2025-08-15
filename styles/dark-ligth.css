@@ -1,11 +1,13 @@
 .dark {
     background-color: #3b163b;
     color: white;
+    transition: background-color 0.3s;
 }
 
 .dark-body{
     background-color: #3b163b;
     color: white;
+    transition: background-color 0.3s;
 }
 
 .dark-hr {
@@ -15,11 +17,13 @@
 .ligth {
     background-color: #f5d9f4;
     color: #3f1336;
+    transition: background-color 0.3s;
 }
 
 .ligth-body{
     background-color: #fdf6fc;
     color: #3f1336;
+    transition: background-color 0.3s;
 }
 
 .ligth-hr {

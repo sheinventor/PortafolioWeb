@@ -3,7 +3,7 @@ function cambiarModo(){
         localStorage.setItem('tema', 'dark')
         return 'dark'
     })();
-
+    
     const elements = document.querySelectorAll(`[class*="${tema}"]`)
 
     let temaNuevo

@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="./styles/Styles.css">
     <link rel="stylesheet" href="./styles/dark-ligth.css">
 </head>
-<body>
-    
-    
+<body hidden>
     <header class="index-header dark">
         <div class="logo">
             <img src="./img/logo.svg" alt="Logo de sheinventor">
@@ -19,7 +17,7 @@
             <p data-i18n="welcomeMessage2">anecdotes, design, science et plus encore.</p>
         </div>
         <div id="lang-selector" class="idioma">
-            <span id="lang-fr" class="lang-selected">FR</span>
+            <span id="lang-fr">FR</span>
             <p>/</p>
             <span id="lang-es">ES</span>
             <p>/</p>
@@ -30,15 +28,49 @@
     <main class="index-main dark-body">
         <div>
             <section class="menu">
-                <article id="art-comic" >
-                    <a href="./pages/comics.html" data-i18n="comics"> Bandes dessinées
+                
+                <article id="art-comic">
+                    <a href="./pages/comics.html"> 
+                        <img src="./img/icons/comic.svg" alt="">
+                        <p data-i18n="comics">Comics</p>
                     </a>
                 </article>
-                <article id="art-videos" data-i18n="" class="ocultar">videos</article>
-                <article id="art-podcast" data-i18n="" class="ocultar">podcast</article>
-                <article id="art-exposiciones" data-i18n="downloads">Exposiciones</article>
-                <article id="art-portafolio" data-i18n="">portafolio</article>
-                <article id="art-tutoriales" data-i18n="" class="ocultar">tutoriales</article>
+
+                <article id="art-videos" class="ocultar">
+                    <a href=""> 
+                        <img src="./img/icons/video.svg" alt="">
+                        <p data-i18n="">videos</p>
+                    </a>
+                </article>
+
+                <article id="art-podcast" class="ocultar">
+                    <a href=""> 
+                        <img src="./img/icons/podcast.svg" alt="">
+                        <p data-i18n="">podcast</p>
+                    </a>
+                </article>
+
+                <article id="art-exposiciones">
+                    <a href=""> 
+                        <img src="./img/icons/Expo.svg" alt="">
+                        <p data-i18n="downloads">Exposiciones</p>
+                    </a>
+                </article>
+
+                <article id="art-portafolio">
+                    <a href=""> 
+                        <img src="./img/icons/portfolio.svg" alt="">
+                        <p data-i18n="">portafolio</p>
+                    </a>
+                </article>
+
+                <article id="art-tutoriales" class="ocultar">
+                    <a href=""> 
+                        <img src="./img/icons/libro.svg" alt="">
+                        <p data-i18n="">tutoriales</p>
+                    </a>
+                </article>
+                
             </section>
             <section class="btn-cambiar">
                 <article>
@@ -53,22 +85,25 @@
         <div>
             <p data-i18n="footerText">Vous voulez soutenir ce projet ? Offrez-moi un café ☕ ou achetez du merch 🎁</p>
             <div class="footer-buttons">
-                <a id="btn-kofi" data-i18n="donate" href="" target="" class="">
-                    <img src="./img/icons/coffe.svg" alt="">Faire un don sur Ko-fi
+                <a id="btn-kofi" href="" target="" class="">
+                    <img src="./img/icons/coffe.svg" alt="">
+                    <p data-i18n="donate">Faire un don sur Ko-fi</p>
                 </a>
-                <a id="btn-tienda" data-i18n="shop" href="" target="" class="">
-                    <img src="./img/icons/shop.svg" alt="">Voir le Merch
+                <a id="btn-tienda"  href="" target="" class="">
+                    <img src="./img/icons/shop.svg" alt="">
+                    <p data-i18n="shop">Voir le Merch</p>
                 </a>
-                <a id="btn-contacto" data-i18n="contactMe" href="" class="">
-                    <img src="./img/icons/mail.svg" alt="">Contactez-moi
+                <a id="btn-contacto" href="" class="">
+                    <img src="./img/icons/mail.svg" alt="">
+                    <p data-i18n="contactMe">Contactez-moi</p>
                 </a>
             </div>
         </div>
     </footer>
 
-    <script src="./scripts/main.js"></script>
     <script src="./scripts/utils/dark-ligth.js"></script>
     <script src="./scripts/foco-cambiar-tema.js"></script>
     <script src="./scripts/cambiar-idioma.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>

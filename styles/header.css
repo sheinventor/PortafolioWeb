@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+.global-header{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+.logo {
+    margin-right: 10px;
+    width: 4rem;
+}
+
+.titulo {
+    margin-right: auto; 
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.idioma{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.idioma span{
+    padding: 0.15rem;
+    font-size: 12px;
+}
+
+.idioma span:hover{
+    cursor: pointer;
+}
+
+.idioma p{
+    padding: 0.1rem;
+    font-size: 12px;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    padding-right: 20px;
+}
