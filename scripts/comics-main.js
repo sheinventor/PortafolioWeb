@@ -14,9 +14,11 @@ window.addEventListener('DOMContentLoaded', function(){
 
             comicCard.className = 'comic-card'
 
-            comicCard.innerHTML = `<img class="portada" src="${element['portada']}" alt="">
-                                <h4 class="titulo">${element['titulo']}</h4>
-                                <p class="descripcion">${element['descripcion']}</p>`
+            comicCard.innerHTML = `<a href="./visualizador.html" onclick="comicName('${element['folder']}')">
+                                        <img class="portada" src="${element['portada']}" alt="">
+                                        <h4 class="titulo">${element['titulo']}</h4>
+                                        <p class="descripcion">${element['descripcion']}</p>
+                                    </a>`
             comicMain.appendChild(comicCard)
         });
     })

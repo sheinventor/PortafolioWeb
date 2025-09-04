@@ -1,0 +1,76 @@
+        body {
+            overflow-y: hidden;
+        }
+
+        .main-container {
+            height: 100vh; /* Ocupa toda la pantalla */
+            display: grid;
+            grid-template-rows: 15% 80% 5%; /* Header y 3 divs */
+        }
+
+        .comic-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: auto;
+            padding-bottom: 30px;
+        }
+
+        .comic-controls img{
+            height: 50px;
+        }
+
+        .comic-controls iframe {
+            margin-left: 20px;
+        }
+
+        #comic-viewer-footer{
+            display: flex;
+            background-color: #3b163b;
+            height: auto;
+            color: #f5d9f4;
+            font-size: small;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #comic-viewer{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #comic-img {
+            height: 600px;
+            width: 600px;
+            border-radius: 2%;
+            border: #f5d9f4 solid 1px;
+            margin-bottom: 30px;
+        }
+
+        #div-header { 
+            height: auto;
+        }
+
+        .otro-contenido {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text-overlay {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            font-size: 14px;
+            max-width: 80%;
+            word-wrap: break-word;
+            box-sizing: border-box;
+        }

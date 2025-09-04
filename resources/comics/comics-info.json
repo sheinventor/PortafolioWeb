@@ -1,6 +1,7 @@
 [
     {
         "titulo": "Emanuel",
+        "folder" : "comic1",
         "descripcion": "Primera entrega de la serie, introducción a la historia.",
         "paginas": [
             "../img/comics/comic1/0.jpg",
@@ -11,19 +12,11 @@
             "../img/comics/comic1/5.jpg"
         ],
         "portada": "../img/comics/comic1/0.jpg",
-        "traducciones": {
-            "en": {
-                "titulo": "Emanuel",
-                "descripcion": "First issue of the series, introduction to the story."
-            },
-            "fr": {
-                "titulo": "Bande dessinée 1",
-                "descripcion": "Premier numéro de la série, introduction à l'histoire."
-            }
-        }
+        "manifest": "https://drive.google.com/file/d/1ulX0-oX0x3XyvsvSLa3YUj5QxG08L2fr/view?usp=sharing"
     },
     {
         "titulo": "Flowers",
+        "folder" : "comic2",
         "descripcion": "Segunda entrega con el desarrollo de los personajes.",
         "paginas": [
             "../img/comics/comic2/0.jpg",
@@ -48,6 +41,7 @@
     },
     {
         "titulo": "A normal day",
+        "folder" : "comic3",
         "descripcion": "Segunda entrega con el desarrollo de los personajes.",
         "paginas": [
             "../img/comics/comic3/0.jpg",
@@ -69,6 +63,7 @@
     },
     {
         "titulo": "Broken Hopes",
+        "folder" : "comic4",
         "descripcion": "Segunda entrega con el desarrollo de los personajes.",
         "paginas": [
             "../img/comics/comic4/0.jpg",
@@ -97,6 +92,7 @@
     },
     {
         "titulo": "Nancy",
+        "folder" : "comic5",
         "descripcion": "Segunda entrega con el desarrollo de los personajes.",
         "paginas": [
             "../img/comics/comic5/0.jpg",
