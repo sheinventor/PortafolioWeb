@@ -68,3 +68,24 @@ body{
 .lang-selected{
     font-weight: bold;
 }
+
+@media (max-width: 1440px){
+  .comic-card {
+    border: solid #ecbbe7 2px;  
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #f5d9f4;
+    color: #3f1336;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .portada {
+    width: 346px;
+    height: auto;
+    border-radius: 17px 17px 0px 0px;
+    border-bottom: solid #ecbbe7 2px;
+    background-color: white;
+  }
+
+}

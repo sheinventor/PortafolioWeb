@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', function(){
                 <img src="../img/logo.svg" alt="Logo de sheinventor">
             </div>
             <div class="titulo">
-                <h1 data-i18n="">SheInventor ${titulo}</h1>
+                <h1 class="titulo" data-i18n="">SheInventor ${titulo}</h1>
             </div>
             <div id="contenedor-menu">
                 <div id="lang-selector" class="idioma">

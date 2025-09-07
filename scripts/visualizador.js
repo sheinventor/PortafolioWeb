@@ -122,8 +122,8 @@ function adjustTextPositions() {
   document.querySelectorAll(".text-overlay").forEach(span => {
     const x = parseFloat(span.dataset.x);
     const y = parseFloat(span.dataset.y);
-    span.style.left = `${(x / 100) * contenedor.clientWidth}px`;
-    span.style.top = `${(y / 100) * contenedor.clientHeight}px`;
+    span.style.left = `${x}%`;
+    span.style.top = `${y}%`;
   });
 }
 

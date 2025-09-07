@@ -67,10 +67,34 @@
             color: white;
             padding: 4px 8px;
             border-radius: 4px;
-            transform: translate(-50%, -50%);
             pointer-events: none;
             font-size: 14px;
             max-width: 80%;
             word-wrap: break-word;
             box-sizing: border-box;
+        }
+
+        #comic-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        @media (max-width: 1440px){
+
+            #comic-img {
+                height: 300px;
+                width: 300px;
+                border-radius: 2%;
+                border: #f5d9f4 solid 1px;
+                margin-bottom: 20px;
+            }
+
+            .comic-controls img{
+                height: 30px;
+            }
+
+            .comic-controls iframe {
+                margin-left: 20px;
+            }
+            
         }

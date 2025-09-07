@@ -63,3 +63,27 @@ a:visited{
 .menu ul li{
     padding-right: 20px;
 }
+
+@media (max-width: 1440px){
+    
+    .global-header{
+        font-size: 16px;
+    }
+
+    .titulo {
+        font-size: 18px;
+    }
+
+    .idioma span{
+        font-size: 10px;
+    }
+
+    .idioma p{
+        font-size: 10px;
+    }
+
+    .menu ul li{
+        padding-right: 16px;
+    }
+
+}
