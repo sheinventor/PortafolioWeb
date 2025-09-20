@@ -1,0 +1,53 @@
+{
+  "title": "La carta",
+  "pages": 12,
+  "dialogs": [
+    { "page": 1, "lang": "fr", "x": 50, "y": 10, "text": "À 27 ans, je vois ma vie comme un jeu de cartes." },
+    { "page": 1, "lang": "es", "x": 50, "y": 10, "text": "A los 27 años, veo mi vida como un juego de cartas." },
+    { "page": 1, "lang": "en", "x": 50, "y": 10, "text": "At 27, I see my life as a card game." },
+
+    { "page": 2, "lang": "fr", "x": 50, "y": 20, "text": "On ne choisit pas les cartes que l'on reçoit, mais les stratégies avec lesquelles on les utilise." },
+    { "page": 2, "lang": "es", "x": 50, "y": 20, "text": "Uno no elige las cartas que recibe, pero sí las estrategias con las que las juega." },
+    { "page": 2, "lang": "en", "x": 50, "y": 20, "text": "We don’t choose the cards we’re dealt, but the strategies with which we play them." },
+
+    { "page": 3, "lang": "fr", "x": 50, "y": 30, "text": "Parmi mes cartes, il y en avait une que je ne comprenais pas, comme si elle était écrite dans une autre langue." },
+    { "page": 3, "lang": "es", "x": 50, "y": 30, "text": "Entre mis cartas había una que no entendía, como si estuviera escrita en otro idioma." },
+    { "page": 3, "lang": "en", "x": 50, "y": 30, "text": "Among my cards, there was one I couldn’t understand, as if it were written in another language." },
+
+    { "page": 4, "lang": "fr", "x": 50, "y": 40, "text": "Cette carte apparaissait à tout moment: à l’école, au travail, avec ma famille et mes amis." },
+    { "page": 4, "lang": "es", "x": 50, "y": 40, "text": "Esa carta aparecía en cualquier momento: en la escuela, en el trabajo, con mi familia y mis amigos." },
+    { "page": 4, "lang": "en", "x": 50, "y": 40, "text": "That card appeared at any moment: at school, at work, with my family and friends." },
+
+    { "page": 5, "lang": "fr", "x": 50, "y": 50, "text": "C’était une carte qui m’empêchait de faire ce qui semblait facile pour les autres." },
+    { "page": 5, "lang": "es", "x": 50, "y": 50, "text": "Era una carta que me impedía hacer lo que parecía fácil para los demás." },
+    { "page": 5, "lang": "en", "x": 50, "y": 50, "text": "It was a card that kept me from doing what seemed easy for others." },
+
+    { "page": 6, "lang": "fr", "x": 50, "y": 60, "text": "Beaucoup m’ont dit que ce n’était rien, que j’exagérais." },
+    { "page": 6, "lang": "es", "x": 50, "y": 60, "text": "Muchos me dijeron que no era nada, que exageraba." },
+    { "page": 6, "lang": "en", "x": 50, "y": 60, "text": "Many told me it was nothing, that I was exaggerating." },
+
+    { "page": 7, "lang": "fr", "x": 50, "y": 70, "text": "Mais je n’arrivais pas à l’ignorer, ce qui accentuait ma culpabilité envers moi-même." },
+    { "page": 7, "lang": "es", "x": 50, "y": 70, "text": "Pero no lograba ignorarla, lo que solo aumentaba mi culpa hacia mí misma." },
+    { "page": 7, "lang": "en", "x": 50, "y": 70, "text": "But I couldn’t ignore it, which only deepened my guilt toward myself." },
+
+    { "page": 8, "lang": "fr", "x": 50, "y": 80, "text": "Par ténacité, j’ai continué de chercher, chercher et chercher." },
+    { "page": 8, "lang": "es", "x": 50, "y": 80, "text": "Con tenacidad, seguí buscando, buscando y buscando." },
+    { "page": 8, "lang": "en", "x": 50, "y": 80, "text": "With tenacity, I kept searching, searching, and searching." },
+
+    { "page": 9, "lang": "fr", "x": 50, "y": 90, "text": "Jusqu’à récemment, quand une neuropsychologue a réussi à la déchiffrer." },
+    { "page": 9, "lang": "es", "x": 50, "y": 90, "text": "Hasta hace poco, cuando una neuropsicóloga logró descifrarla." },
+    { "page": 9, "lang": "en", "x": 50, "y": 90, "text": "Until recently, when a neuropsychologist managed to decipher it." },
+
+    { "page": 10, "lang": "fr", "x": 50, "y": 100, "text": "Bien que cela m’ait dévasté au début, je l’ai maintenant accepté et mes jours sont plus légers." },
+    { "page": 10, "lang": "es", "x": 50, "y": 100, "text": "Aunque al principio me devastó, ahora lo he aceptado y mis días son más ligeros." },
+    { "page": 10, "lang": "en", "x": 50, "y": 100, "text": "Although it devastated me at first, I have now accepted it and my days feel lighter." },
+
+    { "page": 11, "lang": "fr", "x": 50, "y": 110, "text": "J’ai espoir que mes nouvelles stratégies, enseignées par ma neuropsychologue," },
+    { "page": 11, "lang": "es", "x": 50, "y": 110, "text": "Tengo esperanza de que mis nuevas estrategias, enseñadas por mi neuropsicóloga," },
+    { "page": 11, "lang": "en", "x": 50, "y": 110, "text": "I have hope that my new strategies, taught by my neuropsychologist," },
+
+    { "page": 12, "lang": "fr", "x": 50, "y": 120, "text": "m’offriront un avenir meilleur que celui que j’aurais vécu si je n’avais jamais déchiffré cette carte." },
+    { "page": 12, "lang": "es", "x": 50, "y": 120, "text": "me ofrecerán un futuro mejor que el que habría vivido si nunca hubiera descifrado esa carta." },
+    { "page": 12, "lang": "en", "x": 50, "y": 120, "text": "will give me a better future than the one I would have lived if I had never deciphered that card." }
+  ]
+}
