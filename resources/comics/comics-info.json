@@ -1,0 +1,69 @@
+[
+    {
+        "titulo": "Emanuel",
+        "folder" : "comic1",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic1/0.jpg"
+    },
+    {
+        "titulo": "Flowers",
+        "folder" : "comic2",
+        "descripcion": "Segunda entrega con el desarrollo de los personajes.",
+        "portada": "../img/comics/comic2/0.jpg"
+    },
+    {
+        "titulo": "A normal day",
+        "folder" : "comic3",
+        "descripcion": "Segunda entrega con el desarrollo de los personajes.",
+        "portada": "../img/comics/comic3/0.jpg"
+    },
+    {
+        "titulo": "Broken Hopes",
+        "folder" : "comic4",
+        "descripcion": "Segunda entrega con el desarrollo de los personajes.",
+        "portada": "../img/comics/comic4/0.jpg"
+    },
+    {
+        "titulo": "Nancy",
+        "folder" : "comic5",
+        "descripcion": "Segunda entrega con el desarrollo de los personajes.",
+        "portada": "../img/comics/comic5/0.jpg"
+    },
+
+    
+    {
+        "titulo": "Comic 6",
+        "folder" : "comic6",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic6/1.jpg"
+    },
+
+    {
+        "titulo": "Comic 7",
+        "folder" : "comic7",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic7/1.jpg"
+    },
+
+    {
+        "titulo": "Comic 8",
+        "folder" : "comic8",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic8/1.jpg"
+    },
+
+    {
+        "titulo": "Comic 9",
+        "folder" : "comic9",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic9/1.jpg"
+    },
+
+    {
+        "titulo": "Comic 10",
+        "folder" : "comic10",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic10/1.jpg"
+    }
+
+]
