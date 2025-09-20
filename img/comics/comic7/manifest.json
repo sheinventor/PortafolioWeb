@@ -1,6 +1,6 @@
 {
   "title": "La carta",
-  "pages": 12,
+  "pages": 15,
   "dialogs": [
     { "page": 1, "lang": "fr", "x": 50, "y": 10, "text": "À 27 ans, je vois ma vie comme un jeu de cartes." },
     { "page": 1, "lang": "es", "x": 50, "y": 10, "text": "A los 27 años, veo mi vida como un juego de cartas." },

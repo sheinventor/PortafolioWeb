@@ -3,114 +3,67 @@
         "titulo": "Emanuel",
         "folder" : "comic1",
         "descripcion": "Primera entrega de la serie, introducción a la historia.",
-        "paginas": [
-            "../img/comics/comic1/0.jpg",
-            "../img/comics/comic1/1.jpg",
-            "../img/comics/comic1/2.jpg",
-            "../img/comics/comic1/3.jpg",
-            "../img/comics/comic1/4.jpg",
-            "../img/comics/comic1/5.jpg"
-        ],
-        "portada": "../img/comics/comic1/0.jpg",
-        "manifest": "https://drive.google.com/file/d/1ulX0-oX0x3XyvsvSLa3YUj5QxG08L2fr/view?usp=sharing"
+        "portada": "../img/comics/comic1/0.jpg"
     },
     {
         "titulo": "Flowers",
         "folder" : "comic2",
         "descripcion": "Segunda entrega con el desarrollo de los personajes.",
-        "paginas": [
-            "../img/comics/comic2/0.jpg",
-            "../img/comics/comic2/1.jpg",
-            "../img/comics/comic2/2.jpg",
-            "../img/comics/comic2/3.jpg",
-            "../img/comics/comic2/4.jpg",
-            "../img/comics/comic2/5.jpg",
-            "../img/comics/comic2/6.jpg"
-        ],
-        "portada": "../img/comics/comic2/0.jpg",
-        "traducciones": {
-            "en": {
-                "titulo": "Comic 2",
-                "descripcion": "Second issue, developing the characters."
-            },
-            "fr": {
-                "titulo": "Bande dessinée 2",
-                "descripcion": "Deuxième numéro, développement des personnages."
-            }
-        }
+        "portada": "../img/comics/comic2/0.jpg"
     },
     {
         "titulo": "A normal day",
         "folder" : "comic3",
         "descripcion": "Segunda entrega con el desarrollo de los personajes.",
-        "paginas": [
-            "../img/comics/comic3/0.jpg",
-            "../img/comics/comic3/1.jpg",
-            "../img/comics/comic3/2.jpg",
-            "../img/comics/comic3/3.jpg"
-        ],
-        "portada": "../img/comics/comic3/0.jpg",
-        "traducciones": {
-            "en": {
-                "titulo": "Comic 2",
-                "descripcion": "Second issue, developing the characters."
-            },
-            "fr": {
-                "titulo": "Bande dessinée 2",
-                "descripcion": "Deuxième numéro, développement des personnages."
-            }
-        }
+        "portada": "../img/comics/comic3/0.jpg"
     },
     {
         "titulo": "Broken Hopes",
         "folder" : "comic4",
         "descripcion": "Segunda entrega con el desarrollo de los personajes.",
-        "paginas": [
-            "../img/comics/comic4/0.jpg",
-            "../img/comics/comic4/1.jpg",
-            "../img/comics/comic4/2.jpg",
-            "../img/comics/comic4/3.jpg",
-            "../img/comics/comic4/4.jpg",
-            "../img/comics/comic4/5.jpg",
-            "../img/comics/comic4/6.jpg",
-            "../img/comics/comic4/7.jpg",
-            "../img/comics/comic4/8.jpg",
-            "../img/comics/comic4/9.jpg",
-            "../img/comics/comic4/10.jpg"
-        ],
-        "portada": "../img/comics/comic4/0.jpg",
-        "traducciones": {
-            "en": {
-                "titulo": "Comic 2",
-                "descripcion": "Second issue, developing the characters."
-            },
-            "fr": {
-                "titulo": "Bande dessinée 2",
-                "descripcion": "Deuxième numéro, développement des personnages."
-            }
-        }
+        "portada": "../img/comics/comic4/0.jpg"
     },
     {
         "titulo": "Nancy",
         "folder" : "comic5",
         "descripcion": "Segunda entrega con el desarrollo de los personajes.",
-        "paginas": [
-            "../img/comics/comic5/0.jpg",
-            "../img/comics/comic5/1.jpg",
-            "../img/comics/comic5/2.jpg",
-            "../img/comics/comic5/3.jpg",
-            "../img/comics/comic5/4.jpg"
-        ],
-        "portada": "../img/comics/comic5/0.jpg",
-        "traducciones": {
-            "en": {
-                "titulo": "Comic 2",
-                "descripcion": "Second issue, developing the characters."
-            },
-            "fr": {
-                "titulo": "Bande dessinée 2",
-                "descripcion": "Deuxième numéro, développement des personnages."
-            }
-        }
+        "portada": "../img/comics/comic5/0.jpg"
+    },
+
+    
+    {
+        "titulo": "Comic 6",
+        "folder" : "comic6",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic6/1.jpg"
+    },
+
+    {
+        "titulo": "Comic 7",
+        "folder" : "comic7",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic7/1.jpg"
+    },
+
+    {
+        "titulo": "Comic 8",
+        "folder" : "comic8",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic8/1.jpg"
+    },
+
+    {
+        "titulo": "Comic 9",
+        "folder" : "comic9",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic9/1.jpg"
+    },
+
+    {
+        "titulo": "Comic 10",
+        "folder" : "comic10",
+        "descripcion": "Primera entrega de la serie, introducción a la historia.",
+        "portada": "../img/comics/comic10/1.jpg"
     }
+
 ]
