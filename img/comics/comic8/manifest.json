@@ -1,13 +1,29 @@
 {
-  "title": "Adversidad",
-  "pages": 6,
+  "title": "Caja de Pandora",
+  "pages": 5,
   "dialogs": [
-    { "page": 1, "lang": "en", "x": 50, "y": 10, "text": "¿Por qué cuando la vida es más adversa,", "track": "5NnQpVPJKpFdGFkIdY1Gds" },
-    { "page": 1, "lang": "fr", "x": 50, "y": 10, "text": "Pourquoi, lorsque la vie est plus difficile, ", "track": "5NnQpVPJKpFdGFkIdY1Gds" },
-    { "page": 1, "lang": "es", "x": 50, "y": 10, "text": "Why is it that when life is most challenging, ","track": "5NnQpVPJKpFdGFkIdY1Gds" },
+    { "page": 1, "lang": "es", "x": 50, "y": 10, "text": "Hola soy Paola, y esta es mi caja de pandora" },
+    { "page": 1, "lang": "fr", "x": 50, "y": 10, "text": "Bonjour, je suis Paola, et voici ma boîte de Pandore" },
+    { "page": 1, "lang": "en", "x": 50, "y": 10, "text": "Hello, I’m Paola, and this is my Pandora’s box" },
 
-    { "page": 2, "lang": "en", "x": 80, "y": 60, "text": "es cuando aparecen flores en mi jardín?"},
-    { "page": 2, "lang": "fr", "x": 80, "y": 60, "text": "c’est à ce moment-là que des fleurs apparaissent dans mon jardin ?" },
-    { "page": 2, "lang": "es", "x": 80, "y": 60, "text": "that’s when flowers appear in my garden?" }
+    { "page": 2, "lang": "es", "x": 60, "y": 30, "text": "A muchas personas les gusta esconderla, y me piden que haga lo mismo" },
+    { "page": 2, "lang": "fr", "x": 60, "y": 30, "text": "Beaucoup de gens aiment la cacher, et me demandent de faire pareil" },
+    { "page": 2, "lang": "en", "x": 60, "y": 30, "text": "Many people like to hide it, and they ask me to do the same" },
+
+    { "page": 2, "lang": "es", "x": 60, "y": 50, "text": "Supéralo..." },
+    { "page": 2, "lang": "fr", "x": 60, "y": 50, "text": "Dépasse ça..." },
+    { "page": 2, "lang": "en", "x": 60, "y": 50, "text": "Get over it..." },
+
+    { "page": 2, "lang": "es", "x": 60, "y": 70, "text": "¿Acaso no aprendes?" },
+    { "page": 2, "lang": "fr", "x": 60, "y": 70, "text": "N’apprends-tu donc pas ?" },
+    { "page": 2, "lang": "en", "x": 60, "y": 70, "text": "Don’t you ever learn?" },
+
+    { "page": 3, "lang": "es", "x": 70, "y": 20, "text": "Pero tengo un motivo, entre más abro la caja de Pandora" },
+    { "page": 3, "lang": "fr", "x": 70, "y": 20, "text": "Mais j’ai une raison, plus j’ouvre la boîte de Pandore" },
+    { "page": 3, "lang": "en", "x": 70, "y": 20, "text": "But I have a reason, the more I open Pandora’s box" },
+
+    { "page": 4, "lang": "es", "x": 80, "y": 50, "text": "más pequeña se vuelve" },
+    { "page": 4, "lang": "fr", "x": 80, "y": 50, "text": "plus petite elle devient" },
+    { "page": 4, "lang": "en", "x": 80, "y": 50, "text": "the smaller it becomes" }
   ]
-} 
+}
