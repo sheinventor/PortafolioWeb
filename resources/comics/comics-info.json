@@ -32,17 +32,17 @@
 
     
     {
-        "titulo": "Comic 6",
+        "titulo": "Adversity",
         "folder" : "comic6",
         "descripcion": "Primera entrega de la serie, introducción a la historia.",
-        "portada": "../img/comics/comic6/1.jpg"
+        "portada": "../img/comics/comic6/0.jpg"
     },
 
     {
-        "titulo": "Comic 7",
+        "titulo": "Courage",
         "folder" : "comic7",
         "descripcion": "Primera entrega de la serie, introducción a la historia.",
-        "portada": "../img/comics/comic7/1.jpg"
+        "portada": "../img/comics/comic7/0.jpg"
     },
 
     {
