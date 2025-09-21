@@ -49,21 +49,21 @@
         "titulo": "Comic 8",
         "folder" : "comic8",
         "descripcion": "Primera entrega de la serie, introducción a la historia.",
-        "portada": "../img/comics/comic8/1.jpg"
+        "portada": "../img/comics/comic8/0.jpg"
     },
 
     {
         "titulo": "Comic 9",
         "folder" : "comic9",
         "descripcion": "Primera entrega de la serie, introducción a la historia.",
-        "portada": "../img/comics/comic9/1.jpg"
+        "portada": "../img/comics/comic9/0.jpg"
     },
 
     {
         "titulo": "Comic 10",
         "folder" : "comic10",
         "descripcion": "Primera entrega de la serie, introducción a la historia.",
-        "portada": "../img/comics/comic10/1.jpg"
+        "portada": "../img/comics/comic10/0.jpg"
     }
 
 ]
