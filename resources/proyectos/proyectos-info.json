@@ -1,0 +1,57 @@
+[
+  {
+    "nombre": {
+      "es": "Planner Medicamentos",
+      "fr": "Planificateur de médicaments",
+      "en": "Medication Planner"
+    },
+    "etiquetas": {
+      "es": ["Medicina", "Salud", "Organizacion"],
+      "fr": ["Médecine", "Santé", "Organisation"],
+      "en": ["Medicine", "Health", "Organization"]
+    },
+    "img": "/img/proyectos/PlannerMedicamentos/medicinas.png"
+  },
+
+  {
+    "nombre": {
+      "es": "Planner Medicamentos",
+      "fr": "Planificateur de médicaments",
+      "en": "Medication Planner"
+    },
+    "etiquetas": {
+      "es": ["Medicina", "Salud", "Organizacion"],
+      "fr": ["Médecine", "Santé", "Organisation"],
+      "en": ["Medicine", "Health", "Organization"]
+    },
+    "img": "/img/proyectos/PlannerMedicamentos/medicinas.png"
+  },
+
+  {
+    "nombre": {
+      "es": "Planner Medicamentos",
+      "fr": "Planificateur de médicaments",
+      "en": "Medication Planner"
+    },
+    "etiquetas": {
+      "es": ["Medicina", "Salud", "Organizacion"],
+      "fr": ["Médecine", "Santé", "Organisation"],
+      "en": ["Medicine", "Health", "Organization"]
+    },
+    "img": "/img/proyectos/PlannerMedicamentos/medicinas.png"
+  },
+
+  {
+    "nombre": {
+      "es": "Planner Medicamentos",
+      "fr": "Planificateur de médicaments",
+      "en": "Medication Planner"
+    },
+    "etiquetas": {
+      "es": ["Medicina", "Salud", "Organizacion"],
+      "fr": ["Médecine", "Santé", "Organisation"],
+      "en": ["Medicine", "Health", "Organization"]
+    },
+    "img": "/img/proyectos/PlannerMedicamentos/medicinas.png"
+  }
+]

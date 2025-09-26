@@ -1,11 +1,7 @@
-body{
-  background-color: #fdf6fc;
-}
-
 #comics-main {
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .bienvenida {
@@ -15,7 +11,7 @@ body{
   margin-top: 30px;
 }
 
-.bienvenida *{
+.bienvenida * {
   margin: auto;
   text-align: center;
   color: #3f1336;
@@ -38,13 +34,13 @@ body{
 }
 
 .comic-card {
-    border: solid #ecbbe7 2px;  
-    width: 498px;
-    height: auto;
-    border-radius: 20px;
-    background-color: #f5d9f4;
-    color: #3f1336;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  border: solid #ecbbe7 2px;
+  width: 498px;
+  height: auto;
+  border-radius: 20px;
+  background-color: #f5d9f4;
+  color: #3f1336;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .portada {
@@ -65,19 +61,19 @@ body{
   padding: 0px 15px 20px 15px;
 }
 
-.lang-selected{
-    font-weight: bold;
+.lang-selected {
+  font-weight: bold;
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1440px) {
   .comic-card {
-    border: solid #ecbbe7 2px;  
+    border: solid #ecbbe7 2px;
     width: 350px;
     height: auto;
     border-radius: 20px;
     background-color: #f5d9f4;
     color: #3f1336;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   .portada {
@@ -87,5 +83,4 @@ body{
     border-bottom: solid #ecbbe7 2px;
     background-color: white;
   }
-
 }

@@ -1,0 +1,20 @@
+{
+  "nombre": {
+    "es": "Planner Medicamentos",
+    "fr": "Planificateur de médicaments",
+    "en": "Medication Planner"
+  },
+  "descripcion": {
+    "es": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores.",
+    "fr": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores.",
+    "en": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores."
+  },
+  "etiquetas": {
+    "es": ["Medicina", "Salud", "Organizacion"],
+    "fr": ["Médecine", "Santé", "Organisation"],
+    "en": ["Medicine", "Health", "Organization"]
+  },
+  "img-video": ["/img/proyectos/PlannerMedicamentos/Medicinas.png"],
+  "recursos": ["https://drive.google.com/file/d/14z-rzB6AuEadTDo2v6C6oOUPNky9kjus/view?usp=sharing", "https://drive.google.com/file/d/1S9w7ZREus4M7A0c3GxIH_dLaQ1oKDclU/view?usp=sharing"],
+  "descargas": ["https://drive.google.com/drive/folders/1DABzNYm5xs_gd5azo46OoqhFh1AKh_bi"]
+}
