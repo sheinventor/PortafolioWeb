@@ -1,0 +1,47 @@
+footer {
+  height: auto;
+  font-size: 15px;
+  /*color: white;
+    background-color: #3b163b;*/
+}
+
+footer div {
+  display: block;
+  width: 70vw;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+footer div p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid #fdf6fc;
+  border-radius: 8px;
+  background-color: #ecbbe7;
+}
+
+.footer-buttons a p {
+  margin: auto;
+}
+
+.footer-buttons a img {
+  width: 25px;
+  padding-right: 5px;
+}

@@ -1,13 +1,13 @@
-window.addEventListener('DOMContentLoaded', function(){
-    const header = document.getElementById('id-global-header')
-    const scriptTag = document.getElementById('id-script')
-    const titulo = scriptTag.getAttribute('data-titulo')
+window.addEventListener("DOMContentLoaded", function () {
+  const header = document.getElementById("id-global-header");
+  const scriptTag = document.getElementById("id-script");
+  const titulo = scriptTag.getAttribute("data-titulo");
 
-    const headerDiv =  document.createElement("div");
+  const headerDiv = document.createElement("div");
 
-    headerDiv.className = "global-header dark"
+  headerDiv.className = "global-header dark";
 
-    headerDiv.innerHTML = `
+  headerDiv.innerHTML = `
             <div class="logo">
                 <img src="../img/logo.svg" alt="Logo de sheinventor">
             </div>
@@ -25,16 +25,21 @@ window.addEventListener('DOMContentLoaded', function(){
                 <div class="menu">
                     <ul>
                         <li>
-                            <a href="../index.html">Inicio</a>
+                            <a href="/index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="/pages/comics.html">Comics</a>
                         </li>
                         <li>Video</li>
                         <li>Podcast</li>
                         <li>Expocisiones</li>
-                        <li>Portafolio</li>
+                        <li>
+                            <a href="/pages/proyectos.html">Proyectos</a>
+                        </li>
                         <li>Tutoriales</li>
                     </ul>
                 </div>
             </div>`;
-    
-    header.appendChild(headerDiv)
-})
+
+  header.appendChild(headerDiv);
+});
