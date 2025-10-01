@@ -1,33 +1,47 @@
 {
-    "es": {
-      "comics": "Cómics",
-      "downloads": "Descargas",
-      "footerText": "¿Quieres apoyar este proyecto? Invítame un café ☕ o compra merch 🎁",
-      "donate": "Donar en Ko-fi",
-      "shop": "Ver Merch",
-      "welcomeMessage": "Bienvenid@ al gabinete de curiosidades de SheInventor",
-      "welcomeMessage2": "anécdotas, diseño, ciencia y más.",
-      "contactMe": "Contáctame"
-    },
-    "en": {
-      "comics": "Comics",
-      "downloads": "Downloads",
-      "footerText": "Want to support this project? Buy me a coffee ☕ or grab some merch 🎁",
-      "donate": "Donate on Ko-fi",
-      "shop": "See Merch",
-      "welcomeMessage": "Welcome to the cabinet of curiosities of SheInventor",
-      "welcomeMessage2": "anecdotes, design, science and more.",
-      "contactMe": "Contact me"
-    },
-    "fr": {
-      "comics": "Bandes dessinées",
-      "downloads": "Téléchargements",
-      "footerText": "Vous voulez soutenir ce projet ? Offrez-moi un café ☕ ou achetez du merch 🎁",
-      "donate": "Faire un don sur Ko-fi",
-      "shop": "Voir le Merch",
-      "welcomeMessage": "Bienvenue dans le cabinet de curiosités de SheInventor",
-      "welcomeMessage2": "anecdotes, design, science et plus encore.",
-      "contactMe": "Contactez-moi"
-    }
+  "es": {
+    "comics": "Cómics",
+    "downloads": "Descargas",
+    "footerText": "¿Quieres apoyar este proyecto? Invítame un café ☕ o compra merch 🎁",
+    "donate": "Donar en Ko-fi",
+    "shop": "Ver Merch",
+    "welcomeMessage": "Bienvenid@ al gabinete de curiosidades de SheInventor",
+    "welcomeMessage2": "anécdotas, diseño, ciencia y más.",
+    "contactMe": "Contáctame",
+    "comicsTitulo": "Bienvenid@",
+    "comicsParrafo": "Bienvenid@ al gabinete de curiosidades de SheInventor",
+    "proyectosTitulo": "Bienvenid@ Mis proyectos",
+    "proyectosParrafo": "Bienvenid@ al gabinete de curiosidades de SheInventor",
+    "proyectosLink": "❤️ Apóyame"
+  },
+  "en": {
+    "comics": "Comics",
+    "downloads": "Downloads",
+    "footerText": "Want to support this project? Buy me a coffee ☕ or grab some merch 🎁",
+    "donate": "Donate on Ko-fi",
+    "shop": "See Merch",
+    "welcomeMessage": "Welcome to the cabinet of curiosities of SheInventor",
+    "welcomeMessage2": "anecdotes, design, science and more.",
+    "contactMe": "Contact me",
+    "comicsTitulo": "Welcome",
+    "comicsParrafo": "Welcome to the cabinet of curiosities",
+    "proyectosTitulo": "Welcome",
+    "proyectosParrafo": "Welcome to the cabinet of curiosities",
+    "proyectosLink": "❤️ Support me"
+  },
+  "fr": {
+    "comics": "Bandes dessinées",
+    "downloads": "Téléchargements",
+    "footerText": "Vous voulez soutenir ce projet ? Offrez-moi un café ☕ ou achetez du merch 🎁",
+    "donate": "Faire un don sur Ko-fi",
+    "shop": "Voir le Merch",
+    "welcomeMessage": "Bienvenue dans le cabinet de curiosités de SheInventor",
+    "welcomeMessage2": "anecdotes, design, science et plus encore.",
+    "contactMe": "Contactez-moi",
+    "comicsTitulo": "Bienvenue dans",
+    "comicsParrafo": "Bienvenue dans le cabinet de curiosités",
+    "proyectosTitulo": "Bienvenue dans",
+    "proyectosParrafo": "Bienvenue dans le cabinet de curiosités",
+    "proyectosLink": "❤️ Soutenez-moi"
   }
-  
+}

@@ -3,11 +3,16 @@ window.addEventListener("DOMContentLoaded", function () {
   const scriptTag = document.getElementById("id-script");
   const titulo = scriptTag.getAttribute("data-titulo");
 
-  const headerDiv = document.createElement("div");
+  const leng = localStorage.getItem("lang");
 
-  headerDiv.className = "global-header dark";
+  fetch("/resources/translations.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const headerDiv = document.createElement("div");
 
-  headerDiv.innerHTML = `
+      headerDiv.className = "global-header dark";
+
+      headerDiv.innerHTML = `
             <div class="logo">
                 <img src="../img/logo.svg" alt="Logo de sheinventor">
             </div>
@@ -25,10 +30,10 @@ window.addEventListener("DOMContentLoaded", function () {
                 <div class="menu">
                     <ul>
                         <li>
-                            <a href="/index.html">Inicio</a>
+                            <a href="/index.html" data-i18n="">Inicio</a>
                         </li>
                         <li>
-                            <a href="/pages/comics.html">Comics</a>
+                            <a href="/pages/comics.html" data-i18n="comics">${data[leng]["comics"]}</a>
                         </li>
                         <li>Video</li>
                         <li>Podcast</li>
@@ -41,5 +46,6 @@ window.addEventListener("DOMContentLoaded", function () {
                 </div>
             </div>`;
 
-  header.appendChild(headerDiv);
+      header.appendChild(headerDiv);
+    });
 });

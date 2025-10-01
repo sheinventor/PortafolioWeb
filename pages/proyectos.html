@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="stylesheet" href="../styles/dark-ligth.css" />
     <link rel="stylesheet" href="/styles/proyectos-style.css" />
+    <link rel="stylesheet" href="/styles/proyectos-modal.css" />
   </head>
   <body>
     <header id="id-global-header" class=""></header>
     <hr class="dark-hr" />
     <div id="main-contenedor">
       <section class="bienvenida">
-        <p>Aquí comparto mis proyectos de ciencia, arte y emoción. Puedes explorarlos, descargarlos o apoyarme para seguir creando.</p>
-        <a href="https://ko-fi.com/sheinventor" class="buttons" target="_blank">❤️ Apóyame</a>
+        <h1 data-i18n="proyectosTitulo">Bienvenid@ a mis proyectos</h1>
+        <p data-i18n="proyectosParrafo">Aquí comparto mis proyectos de ciencia, arte y emoción. Puedes explorarlos, descargarlos o apoyarme para seguir creando.</p>
+        <a href="https://ko-fi.com/sheinventor" class="buttons" target="_blank" data-i18n="proyectosLink">❤️ Apóyame</a>
       </section>
 
       <main id="proyectos-contenedor"></main>
@@ -46,5 +48,7 @@
 
     <script id="id-script" src="../scripts/components/header.js" data-titulo="Proyectos"></script>
     <script src="/scripts/proyectos-main.js"></script>
+    <script src="/scripts/proyectos-modal.js"></script>
+    <script src="/scripts/cambiar-idioma.js"></script>
   </body>
 </html>

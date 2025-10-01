@@ -1,17 +1,33 @@
 window.addEventListener("DOMContentLoaded", function () {
+  crearCartas();
+  const leng = localStorage.getItem("lang");
+
+  const interval = setInterval(() => {
+    if (typeof cambiarIdioma === "function") {
+      fetch("/resources/translations.json")
+        .then((translations) => translations.json())
+        .then((data) => {
+          cambiarIdioma(leng, data);
+          clearInterval(interval);
+        });
+    }
+  }, 100);
+});
+
+function crearCartas() {
   fetch("/resources/proyectos/proyectos-info.json")
     .then((response) => response.json())
     .then((data) => {
       const contenedor = document.getElementById("proyectos-contenedor");
       const leng = localStorage.getItem("lang");
 
-      console.log(leng);
+      contenedor.innerHTML = ``;
 
       data.forEach((element) => {
         const proyectoCard = document.createElement("article");
         proyectoCard.className = "card";
         proyectoCard.innerHTML = `
-                <a href="#">
+                <a href="#" onclick="openModal('${element["id"]}')">
             <img src="${element["img"]}" alt="" class="portada" />
             <h1>${element["nombre"][leng]}</h1>
             <section class="etiquetas">
@@ -35,4 +51,4 @@ window.addEventListener("DOMContentLoaded", function () {
       });
     })
     .catch((error) => console.error("Error al leer JSON:", error));
-});
+}
