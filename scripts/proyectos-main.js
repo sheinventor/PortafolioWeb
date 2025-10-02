@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", function () {
       fetch("/resources/translations.json")
         .then((translations) => translations.json())
         .then((data) => {
-          cambiarIdioma(leng, data);
+          cambiarIdioma(leng, data, true);
           clearInterval(interval);
         });
     }

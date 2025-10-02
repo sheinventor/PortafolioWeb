@@ -33,15 +33,31 @@ window.addEventListener("DOMContentLoaded", function () {
                             <a href="/index.html" data-i18n="">Inicio</a>
                         </li>
                         <li>
-                            <a href="/pages/comics.html" data-i18n="comics">${data[leng]["comics"]}</a>
+                            <a href="/pages/comics.html" data-i18n="comics">comics</a>
                         </li>
-                        <li>Video</li>
-                        <li>Podcast</li>
-                        <li>Expocisiones</li>
                         <li>
-                            <a href="/pages/proyectos.html">Proyectos</a>
+                            <a href="/pages/enConstruccion.html" data-i18n="">
+                                Video
+                            </a>
                         </li>
-                        <li>Tutoriales</li>
+                        <li>
+                            <a href="/pages/enConstruccion.html" data-i18n="">
+                                Podcast
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/pages/enConstruccion.html" data-i18n="">
+                                Expocisiones
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/pages/proyectos.html" data-i18n="portafolio">Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="/pages/enConstruccion.html" data-i18n="">
+                                Tutoriales
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>`;

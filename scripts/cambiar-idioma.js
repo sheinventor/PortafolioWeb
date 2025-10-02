@@ -18,7 +18,7 @@ const interval = setInterval(() => {
           console.error("Error cargando las traducciones:", error);
         }
       })().then(() => {
-        cambiarIdioma("fr", translations);
+        cambiarIdioma("fr", translations, true);
       });
     });
   }
@@ -38,7 +38,7 @@ const interval = setInterval(() => {
           console.error("Error cargando las traducciones:", error);
         }
       })().then(() => {
-        cambiarIdioma("es", translations);
+        cambiarIdioma("es", translations, true);
       });
     });
   }
@@ -58,7 +58,7 @@ const interval = setInterval(() => {
           console.error("Error cargando las traducciones:", error);
         }
       })().then(() => {
-        cambiarIdioma("en", translations);
+        cambiarIdioma("en", translations, true);
       });
     });
   }
@@ -67,8 +67,8 @@ const interval = setInterval(() => {
   }
 }, 100);
 
-function cambiarIdioma(lang, translations) {
-  if (typeof crearCartas === "function") {
+function cambiarIdioma(lang, translations, cartas) {
+  if (typeof crearCartas === "function" && cartas) {
     crearCartas();
   }
 
@@ -84,4 +84,8 @@ function cambiarIdioma(lang, translations) {
   if (translations[lang] && translations[lang].projects) {
     document.title = translations[lang].projects + " | SheInventor";
   }
+}
+
+async function abrirTextos() {
+  return fetch("/resources/translations.json").then((response) => response.json());
 }

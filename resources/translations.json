@@ -2,6 +2,7 @@
   "es": {
     "comics": "Cómics",
     "downloads": "Descargas",
+    "portafolio": "Portafolio",
     "footerText": "¿Quieres apoyar este proyecto? Invítame un café ☕ o compra merch 🎁",
     "donate": "Donar en Ko-fi",
     "shop": "Ver Merch",
@@ -12,11 +13,16 @@
     "comicsParrafo": "Bienvenid@ al gabinete de curiosidades de SheInventor",
     "proyectosTitulo": "Bienvenid@ Mis proyectos",
     "proyectosParrafo": "Bienvenid@ al gabinete de curiosidades de SheInventor",
-    "proyectosLink": "❤️ Apóyame"
+    "proyectosLink": "❤️ Apóyame",
+    "proyectosModalDescripcion": "Descripcion",
+    "proyectosModalEtiquetas": "Palabras Clave",
+    "proyectosModalOtrosRec": "Otros Recursos",
+    "proyectosModalDescargas": "Descargar los imprimibles"
   },
   "en": {
     "comics": "Comics",
     "downloads": "Downloads",
+    "portafolio": "Portfolio",
     "footerText": "Want to support this project? Buy me a coffee ☕ or grab some merch 🎁",
     "donate": "Donate on Ko-fi",
     "shop": "See Merch",
@@ -27,11 +33,16 @@
     "comicsParrafo": "Welcome to the cabinet of curiosities",
     "proyectosTitulo": "Welcome",
     "proyectosParrafo": "Welcome to the cabinet of curiosities",
-    "proyectosLink": "❤️ Support me"
+    "proyectosLink": "❤️ Support me",
+    "proyectosModalDescripcion": "Description",
+    "proyectosModalEtiquetas": "Keywords",
+    "proyectosModalOtrosRec": "Other Resources",
+    "proyectosModalDescargas": "Download the printables"
   },
   "fr": {
     "comics": "Bandes dessinées",
     "downloads": "Téléchargements",
+    "portafolio": "portefeuille",
     "footerText": "Vous voulez soutenir ce projet ? Offrez-moi un café ☕ ou achetez du merch 🎁",
     "donate": "Faire un don sur Ko-fi",
     "shop": "Voir le Merch",
@@ -42,6 +53,10 @@
     "comicsParrafo": "Bienvenue dans le cabinet de curiosités",
     "proyectosTitulo": "Bienvenue dans",
     "proyectosParrafo": "Bienvenue dans le cabinet de curiosités",
-    "proyectosLink": "❤️ Soutenez-moi"
+    "proyectosLink": "❤️ Soutenez-moi",
+    "proyectosModalDescripcion": "Description",
+    "proyectosModalEtiquetas": "Mots-clés",
+    "proyectosModalOtrosRec": "Autres ressources",
+    "proyectosModalDescargas": "Téléchargez les imprimables"
   }
 }
