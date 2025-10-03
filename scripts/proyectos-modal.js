@@ -33,7 +33,7 @@ function openModal(proyecto) {
           <h2 data-i18n="proyectosModalEtiquetas">Palabras clave</h2>
         </div>
         <div class="etiquetas-contenedor">
-            ${data["etiquetas"][leng].map((txt) => `<span class="etiqueta">${txt}</span>`).join("")}
+            ${data["etiquetas"][leng].map((txt) => `<span class="etiqueta-modal">${txt}</span>`).join("")}
         </div>
       </div>
       <div class="link">

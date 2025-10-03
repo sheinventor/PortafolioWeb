@@ -19,13 +19,14 @@
   gap: 10px;
   width: 90%;
   min-height: 900px;
+  min-width: 1715px;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
 
 .card {
   width: calc(25% - 10px);
-  height: 590px;
+  height: 470px;
   border: solid #ecbbe7 2px;
   border-radius: 20px;
   background-color: #f5d9f4;
@@ -77,4 +78,19 @@
 
 .blur {
   overflow-y: hidden;
+}
+
+@media (max-width: 1440px) {
+  #proyectos-contenedor {
+    width: 90%;
+    min-width: 100vw;
+  }
+  .card {
+    width: calc(25% - 10px);
+    height: 331px;
+  }
+  .card a h1 {
+    text-align: center;
+    font-size: 18px;
+  }
 }
