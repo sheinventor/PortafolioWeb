@@ -62,7 +62,7 @@
       "fr": "Six.",
       "en": "Six."
     },
-    "portada": "../img/comics6/0.jpg"
+    "portada": "../img/comics/comic6/0.jpg"
   },
 
     {
@@ -73,7 +73,7 @@
       "fr": "Sept.",
       "en": "Seven."
     },
-    "portada": "../img/comics7/0.jpg"
+    "portada": "../img/comics/comic7/0.jpg"
   },
 
     {
@@ -84,7 +84,7 @@
       "fr": "Huit.",
       "en": "Eight."
     },
-    "portada": "../img/comics8/0.jpg"
+    "portada": "../img/comics/comic8/0.jpg"
   },
 
     {
@@ -95,7 +95,7 @@
       "fr": "Neuf.",
       "en": "Nine."
     },
-    "portada": "../img/comics9/0.jpg"
+    "portada": "../img/comics/comic9/0.jpg"
   },
 
     {
@@ -106,6 +106,6 @@
       "fr": "Dix.",
       "en": "Ten."
     },
-    "portada": "../img/comics10/0.jpg"
+    "portada": "../img/comics/comic10/0.jpg"
   }
 ]
