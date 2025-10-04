@@ -12,5 +12,19 @@
       "en": ["Medicine", "Health", "Organization"]
     },
     "img": "/img/proyectos/PlannerMedicamentos/medicinas.png"
+  }, 
+  {
+    "id": "Lampara Pedagogica",
+    "nombre": {
+      "es": "Lampara",
+      "fr": "lampe",
+      "en": "lamp"
+    },
+    "etiquetas": {
+      "es": ["Medicina", "Salud", "Organizacion"],
+      "fr": ["Médecine", "Santé", "Organisation"],
+      "en": ["Medicine", "Health", "Organization"]
+    },
+    "img": "/img/proyectos/LamparaLEDPedagogica/0.jpg" 
   }
 ]
