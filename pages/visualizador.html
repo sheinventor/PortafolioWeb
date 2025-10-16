@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/dark-ligth.css">
-    <link rel="stylesheet" href="../styles/comics-styles.css">
-    <link rel="stylesheet" href="../styles/visualizador.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/header.css?v=2" />
+    <link rel="stylesheet" href="../styles/dark-ligth.css?v=2" />
+    <link rel="stylesheet" href="../styles/comics-styles.css?v=2" />
+    <link rel="stylesheet" href="../styles/visualizador.css?v=2" />
     <title>Comic visualizador</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main-container">
-        <div id="div-header">
-            <header id="id-global-header" class="">
-            </header>
-            <hr class="dark-hr">
+      <div id="div-header">
+        <header id="id-global-header" class=""></header>
+        <hr class="dark-hr" />
+      </div>
+
+      <section id="comic-viewer">
+        <div id="comic-container">
+          <img id="comic-img" src="" alt="" />
         </div>
+        <div class="comic-controls">
+          <div class="controls">
+            <img src="../img/antes.png" alt="Anterior" onclick="previousPage()" />
+            <img src="../img/inicio.png" alt="Inicio" onclick="goHome()" />
+            <img src="../img/luego.png" alt="Siguiente" onclick="nextPage()" />
+          </div>
+          <div id="music-container"></div>
+        </div>
+      </section>
 
-        <section id="comic-viewer">
-            <div id="comic-container">
-                <img id="comic-img" src="" alt="">
-            </div>
-            <div class="comic-controls">
-                <img src="../img/antes.png" alt="Anterior" class="" onclick="previousPage()">
-                <img src="../img/inicio.png" alt="Inicio" class="" onclick="goHome()">
-                <img src="../img/luego.png" alt="Siguiente" class="" onclick="nextPage()">
-                <div id="music-container"></div>
-            </div>
-        </section>
-        
-        <footer id="comic-viewer-footer">
-            <a href="./comics.html">
-                <h1>Mas comics</h1>
-            </a>
-        </footer>
+      <footer id="comic-viewer-footer">
+        <a href="./comics.html">
+          <img class="comic-viewer-footer-img" src="../img/inicio-blanco.png" alt="Inicio" />
+        </a>
+      </footer>
     </div>
 
-    <div>
-        
-    </div>
+    <div></div>
 
     <script id="id-script" src="../scripts/components/header.js" data-titulo="Cómics"></script>
     <!-- <script src="../scripts/comics-main.js"></script> -->
     <script src="../scripts/visualizador.js"></script>
-
-
-</body>
+  </body>
 </html>

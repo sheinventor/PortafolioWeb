@@ -84,3 +84,31 @@
     background-color: white;
   }
 }
+
+@media (max-width: 800px) {
+  .layout {
+    width: 95%;
+    margin-top: 25px;
+
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .comic-card {
+    width: 100%;
+  }
+
+  .portada {
+    width: 100%;
+  }
+
+  .titulo {
+    font-size: 16px;
+    padding: 0px 5px 0px 5px;
+  }
+
+  .descripcion {
+    font-size: 12px;
+    padding: 0px 5px 10px 5px;
+  }
+}

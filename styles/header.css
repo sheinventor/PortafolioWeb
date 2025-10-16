@@ -20,6 +20,7 @@ a:visited {
   justify-content: space-between;
   padding: 1rem;
   font-size: 18px;
+  position: relative;
 }
 
 .logo {
@@ -68,6 +69,20 @@ a {
   text-decoration: none;
 }
 
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+}
+
 @media (max-width: 1440px) {
   .global-header {
     font-size: 16px;
@@ -87,5 +102,31 @@ a {
 
   .menu ul li {
     padding-right: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #3f1336;
+    width: 100%;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Cuando se activa el menú */
+  .menu.active {
+    display: block;
   }
 }
