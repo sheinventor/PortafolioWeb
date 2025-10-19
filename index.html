@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SheInventor</title>
-    <link rel="stylesheet" href="./styles/Styles.css" />
-    <link rel="stylesheet" href="./styles/dark-ligth.css" />
+    <link rel="stylesheet" href="./styles/Styles.css?v=2" />
+    <link rel="stylesheet" href="./styles/dark-ligth.css?v=2" />
   </head>
   <body hidden>
     <header class="index-header dark">
@@ -26,57 +26,43 @@
     </header>
     <hr class="dark-hr" />
     <main class="index-main dark-body">
-      <div>
-        <section class="menu">
-          <article id="art-comic">
-            <a href="./pages/comics.html">
-              <img src="./img/icons/comic.svg" alt="" />
-              <p data-i18n="comics">Comics</p>
-            </a>
-          </article>
+      <!-- <div class="layout"> -->
+      <section class="menu">
+        <article id="art-comic">
+          <a href="./pages/comics.html">
+            <img class="img-menu" src="./img/icons/comic.svg" alt="" />
+            <p data-i18n="comics">Comics</p>
+          </a>
+        </article>
 
-          <article id="art-videos" class="ocultar">
-            <a href="/pages/enConstruccion.html">
-              <img src="./img/icons/video.svg" alt="" />
-              <p data-i18n="">videos</p>
-            </a>
-          </article>
+        <article id="art-videos" class="ocultar">
+          <a href="/pages/enConstruccion.html">
+            <img class="img-menu" src="./img/icons/video.svg" alt="" />
+            <p data-i18n="">videos</p>
+          </a>
+        </article>
 
-          <article id="art-podcast" class="ocultar">
-            <a href="/pages/enConstruccion.html">
-              <img src="./img/icons/podcast.svg" alt="" />
-              <p data-i18n="">podcast</p>
-            </a>
-          </article>
+        <article id="art-podcast" class="ocultar">
+          <a href="/pages/enConstruccion.html">
+            <img class="img-menu" src="./img/icons/podcast.svg" alt="" />
+            <p data-i18n="">podcast</p>
+          </a>
+        </article>
 
-          <article id="art-exposiciones">
-            <a href="/pages/enConstruccion.html">
-              <img src="./img/icons/Expo.svg" alt="" />
-              <p data-i18n="downloads">Exposiciones</p>
-            </a>
-          </article>
-
-          <article id="art-portafolio">
-            <a href="./pages/proyectos.html">
-              <img src="./img/icons/portfolio.svg" alt="" />
-              <p data-i18n="portafolio">portafolio</p>
-            </a>
-          </article>
-
-          <article id="art-tutoriales" class="ocultar">
-            <a href="/pages/enConstruccion.html">
-              <img src="./img/icons/libro.svg" alt="" />
-              <p data-i18n="">tutoriales</p>
-            </a>
-          </article>
-        </section>
-        <section class="btn-cambiar">
-          <article>
-            <img id="img-foco-cambiar" src="./img/Foco-Logo.png" alt="Imagen de foco sheinventor" />
-            <img id="img-click-me" src="./img/clickme.png" alt="Imagen clickme sheinventor" />
-          </article>
-        </section>
-      </div>
+        <article id="art-portafolio">
+          <a href="./pages/proyectos.html">
+            <img class="img-menu" src="./img/icons/portfolio.svg" alt="" />
+            <p data-i18n="portafolio">Biblioteca de proyectos</p>
+          </a>
+        </article>
+        <!-- </section>
+        <section class="btn-cambiar"> -->
+        <article class="btn-cambiar">
+          <img id="img-foco-cambiar" src="./img/Foco-Logo.png" alt="Imagen de foco sheinventor" />
+          <img id="img-click-me" src="./img/clickme.png" alt="Imagen clickme sheinventor" />
+        </article>
+      </section>
+      <!-- </div> -->
     </main>
     <hr class="dark-hr" />
     <footer class="dark">

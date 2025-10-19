@@ -14,7 +14,9 @@ window.addEventListener("DOMContentLoaded", function () {
 
       headerDiv.innerHTML = `
             <div class="logo">
-                <img src="../img/logo.svg" alt="Logo de sheinventor">
+                <a href="/index.html">
+                    <img src="../img/logo.svg" alt="Logo de sheinventor">
+                </a>    
             </div>
             <div class="titulo">
                 <h1 class="titulo" data-i18n="">SheInventor ${titulo}</h1>
@@ -27,8 +29,14 @@ window.addEventListener("DOMContentLoaded", function () {
                     <p>/</p>
                     <span id="lang-en">EN</span>
                 </div>
-                <div class="menu">
-                    <ul>
+                <div class="menu-toggle" id="menu-toggle">
+                    <!-- Icono de 3 barras -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu" id="menu">
+                    <ul class="nav-list">
                         <li>
                             <a href="/index.html" data-i18n="">Inicio</a>
                         </li>
@@ -46,22 +54,26 @@ window.addEventListener("DOMContentLoaded", function () {
                             </a>
                         </li>
                         <li>
-                            <a href="/pages/enConstruccion.html" data-i18n="">
-                                Expocisiones
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/pages/proyectos.html" data-i18n="portafolio">Portafolio</a>
-                        </li>
-                        <li>
-                            <a href="/pages/enConstruccion.html" data-i18n="">
-                                Tutoriales
-                            </a>
+                            <a href="/pages/proyectos.html" data-i18n="portafolio">Biblioteca de proyectos</a>
                         </li>
                     </ul>
                 </div>
             </div>`;
 
       header.appendChild(headerDiv);
+
+      const interval = this.setInterval(() => {
+        /*Agrega evento de click al menu-togle*/
+        const toggle = document.getElementById("menu-toggle");
+        const nav = document.getElementById("menu");
+
+        if (toggle && nav) {
+          console.log("Se creo nav y toggle");
+          toggle.addEventListener("click", () => {
+            nav.classList.toggle("active");
+          });
+          clearInterval(interval);
+        }
+      }, 100);
     });
 });

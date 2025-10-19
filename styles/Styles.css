@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
 }
 
 a:visited {
@@ -51,20 +52,24 @@ a:visited {
 
 .index-main {
   height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
   /* background-color: #632c58;
     color: white; */
 }
 
-.index-main div {
+/* .index-main div {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 70vw;
   margin: auto;
   height: 80vh;
-}
+} */
 
-.menu {
+/* .menu {
   width: 50vw;
   display: flex;
   flex-wrap: wrap;
@@ -79,7 +84,6 @@ a:visited {
   justify-content: center;
   box-sizing: border-box;
   margin: 0.5rem;
-  font-size: 20px;
 }
 
 .menu article a {
@@ -118,16 +122,60 @@ a:visited {
   height: auto;
   align-items: center;
   justify-content: center;
+} */
+
+.menu {
+  width: 50%;
+  display: grid;
+  grid:
+    "art-comic art-videos btn-cambiar" auto
+    "art-podcast art-portafolio btn-cambiar" auto
+    / auto auto auto;
+  gap: 10px;
+  min-width: 950px;
+  min-height: 568px;
+  margin-top: 40px;
+}
+
+.img-menu {
+  height: 65%;
+}
+
+.menu article a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu article a p {
+  text-align: center;
+}
+
+.art-comic {
+  grid-area: art-comic;
+}
+.art-videos {
+  grid-area: art-videos;
+}
+.btn-cambiar {
+  grid-area: btn-cambiar;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+}
+.art-podcast {
+  grid-area: art-podcast;
+}
+.art-portafolio {
+  grid-area: art-portafolio;
 }
 
 #img-foco-cambiar {
-  width: 250px;
-  height: 315px;
+  width: 55%;
 }
 
 #img-click-me {
-  width: 150px;
-  height: 150px;
+  width: 25%;
   animation: pulse 1.2s infinite;
 }
 
@@ -145,7 +193,7 @@ footer {
 
 footer div {
   display: block;
-  width: 70vw;
+  /* width: 70%; */
   margin: auto;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -224,4 +272,42 @@ footer div p {
 
 .lang-selected {
   font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    margin: 0px;
+  }
+
+  .logo img {
+    width: 60px;
+  }
+
+  .titulo {
+    font-size: 60%;
+  }
+
+  .idioma {
+    font-size: 50%;
+  }
+
+  .menu {
+    width: 80%;
+    grid:
+      "btn-cambiar btn-cambiar" auto
+      "art-comic art-videos" auto
+      "art-podcast art-portafolio" auto
+      / 1fr 1fr;
+    min-width: auto;
+    min-height: auto;
+  }
+
+  .index-main {
+    height: auto;
+    min-height: auto;
+  }
+
+  .btn-cambiar {
+    padding-left: 0px;
+  }
 }
