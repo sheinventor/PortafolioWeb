@@ -1,0 +1,23 @@
+{
+  "id": "LamparaPedagogica",
+  "nombre": {
+    "es": "Planner Medicamentos",
+    "fr": "Planificateur de médicaments",
+    "en": "Medication Planner"
+  },
+  "descripcion": {
+    "es": "es: Proyecto realizado como parte de mi tiempo de estudiante emprendedora, buscaba hacer un proyecto que convinara electronica con corte laser, haciendo esta lampara como resultado",
+    "fr": "fr: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores.",
+    "en": "en: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores."
+  },
+  "etiquetas": {
+    "es": ["Electronica", "Programacion", "STEAM"],
+    "fr": ["Electronique", "Prgorammation", "STEAM"],
+    "en": ["Electronics", "Programming", "STEAM"]
+  },
+  "img-video": [
+    "/img/proyectos/LamparaLEDPedagogica/0.jpg"
+  ],
+  "recursos": "Pendiente",
+  "descargas": "Pendiente"
+}
