@@ -14,7 +14,7 @@
     "img": "/img/proyectos/PlannerMedicamentos/medicinas.png"
   }, 
   {
-    "id": "Lampara Pedagogica",
+    "id": "lampara",
     "nombre": {
       "es": "Lampara",
       "fr": "lampe",
@@ -25,6 +25,20 @@
       "fr": ["Médecine", "Santé", "Organisation"],
       "en": ["Medicine", "Health", "Organization"]
     },
-    "img": "/img/proyectos/LamparaLEDPedagogica/0.jpg" 
+    "img": "/img/proyectos/lampara/0.jpg" 
+  },
+    {
+    "id": "Labubu",
+    "nombre": {
+      "es": "Labubu malvado",
+      "fr": "Le Labubu Mechant",
+      "en": "Evil Labubu"
+    },
+    "etiquetas": {
+      "es": ["Electronica", "Programacion", "STEAM"],
+      "fr": ["Electronique", "Prgorammation", "STEAM"],
+      "en": ["Electronics", "Programming", "STEAM"]
+    },
+    "img": "/img/proyectos/Labubu/LABU.png"
   }
 ]
