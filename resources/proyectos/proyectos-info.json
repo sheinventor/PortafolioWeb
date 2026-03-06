@@ -40,5 +40,19 @@
       "en": ["Electronics", "Programming", "STEAM"]
     },
     "img": "/img/proyectos/Labubu/LABU.png"
+  },
+  {
+    "id": "DCMotor",
+    "nombre": {
+      "es": "Conecta un motor DC",
+      "fr": "Comment brancher un moteur DC",
+      "en": "How to connecta DC motor"
+    },
+    "etiquetas": {
+      "es": ["Electronica", "Programacion", "STEAM"],
+      "fr": ["Electronique", "Prgorammation", "STEAM"],
+      "en": ["Electronics", "Programming", "STEAM"]
+    },
+    "img": "/img/proyectos/DCMotor/MotorAmarillo.png"
   }
 ]
