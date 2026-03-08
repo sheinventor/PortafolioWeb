@@ -1,4 +1,6 @@
 [
+
+  
   {
     "id": "PlannerMedicamentos",
     "nombre": {
@@ -41,18 +43,49 @@
     },
     "img": "/img/proyectos/Labubu/LABU.png"
   },
+  
   {
     "id": "DCMotor",
     "nombre": {
       "es": "Conecta un motor DC",
       "fr": "Comment brancher un moteur DC",
-      "en": "How to connecta DC motor"
+      "en": "How to connect a DC motor"
     },
     "etiquetas": {
       "es": ["Electronica", "Programacion", "STEAM"],
       "fr": ["Electronique", "Prgorammation", "STEAM"],
       "en": ["Electronics", "Programming", "STEAM"]
     },
-    "img": "/img/proyectos/DCMotor/MotorAmarillo.png"
+    "img": "/img/proyectos/DCMotor/motora.png"
+  },
+
+  {
+    "id": "Motorpasos",
+    "nombre": {
+      "es": "Conecta un motor a pasos",
+      "fr": "Comment brancher un moteur à pas",
+      "en": "How to connect a stepper motor"
+    },
+    "etiquetas": {
+      "es": ["Electronica", "Programacion", "STEAM"],
+      "fr": ["Electronique", "Prgorammation", "STEAM"],
+      "en": ["Electronics", "Programming", "STEAM"]
+    },
+    "img": "/img/proyectos/Motorpasos/motorp.png"
+  },
+
+  {
+    "id": "Servomotor",
+    "nombre": {
+      "es": "Conecta un servomotor",
+      "fr": "Comment brancher un servomoteur",
+      "en": "How to connect a servomotor"
+    },
+    "etiquetas": {
+      "es": ["Electronica", "Programacion", "STEAM"],
+      "fr": ["Electronique", "Prgorammation", "STEAM"],
+      "en": ["Electronics", "Programming", "STEAM"]
+    },
+    "img": "/img/proyectos/Servomotor/motors.png"
   }
 ]
