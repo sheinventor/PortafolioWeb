@@ -84,7 +84,18 @@ function cambiarIdioma(lang, translations, cartas) {
   if (translations[lang] && translations[lang].projects) {
     document.title = translations[lang].projects + " | SheInventor";
   }
+  //Polo, este es un intento para agregar un formulario por idioma xd 
+
+const btnContacto = document.getElementById("btn-contacto");
+
+// Si existe y hay link definido en las traducciones, actualizamos
+if (btnContacto && translations[lang] && translations[lang].contact_form_link) {
+  btnContacto.href = translations[lang].contact_form_link; // link por idioma
+  btnContacto.target = "_blank"; // abre en nueva pestaña
 }
+}
+
+
 
 async function abrirTextos() {
   return fetch("/resources/translations.json").then((response) => response.json());
