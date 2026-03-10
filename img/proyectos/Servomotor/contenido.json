@@ -5,19 +5,19 @@
     "fr": "Comment brancher un moteur DC",
     "en": "How to connecta DC motor"
   },
-  "descripcion": {
-    "es": "es: Conexiones para conectar tu motor DC, NUNCA CONECTAR DIRECTO AL ARDUINO (EXCESO CORRIENTE)",
-    "fr": "fr: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores.",
-    "en": "en: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores."
-  },
+"descripcion": {
+      "es": "Este tipo de motor permite controlar su posición con gran precisión, de forma similar a cómo un GPS conoce su ubicación. A diferencia del motor a pasos, el servomotor puede identificar la posición en la que se encuentra. Por ejemplo, si un motor a pasos se desconecta en algún momento, puede desincronizarse y después no moverse exactamente como se esperaba. Los materiales, el código y el diagrama de conexión se encuentran en el PDF descargable. Se recomienda utilizar una alimentación adicional para un funcionamiento más estable.",
+      "fr": "Ce type de moteur permet de contrôler sa position avec une grande précision, de manière similaire à la façon dont un GPS connaît sa position. Contrairement au moteur pas à pas, le servomoteur peut identifier la position dans laquelle il se trouve. Par exemple, si un moteur pas à pas est déconnecté à un moment donné, il peut se désynchroniser et ne plus se déplacer exactement comme prévu. Les matériaux, le code et le schéma de connexion se trouvent dans le PDF téléchargeable. Il est recommandé d'utiliser une alimentation supplémentaire pour un fonctionnement plus stable.",
+      "en": "This type of motor allows its position to be controlled with great precision, similar to how a GPS knows its location. Unlike a stepper motor, a servo motor can identify the position it is currently in. For example, if a stepper motor becomes disconnected at some point, it may lose synchronization and no longer move exactly as expected. The materials, code, and wiring diagram can be found in the downloadable PDF. It is recommended to use an additional power supply for more stable operation."
+    },
     "etiquetas": {
     "es": ["Electronica", "Programacion", "STEAM"],
     "fr": ["Electronique", "Prgorammation", "STEAM"],
     "en": ["Electronics", "Programming", "STEAM"]
     },
   "img-video": [
-    "/img/proyectos/DCMotor/MotorAmarillo.png"
+    "/img/proyectos/Servomotor/MOTORS-D.png"
   ],
-  "recursos": ["https://drive.google.com/file/d/14z-rzB6AuEadTDo2v6C6oOUPNky9kjus/view?usp=sharing", "https://drive.google.com/file/d/1S9w7ZREus4M7A0c3GxIH_dLaQ1oKDclU/view?usp=sharing"],
-  "descargas": "https://drive.google.com/drive/folders/1DABzNYm5xs_gd5azo46OoqhFh1AKh_bi"
+  "recursos": ["COMING SOON", "https://ko-fi.com/sheinventor"],
+  "descargas": ""
 }

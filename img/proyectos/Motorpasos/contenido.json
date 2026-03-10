@@ -5,19 +5,19 @@
     "fr": "Comment brancher un moteur DC",
     "en": "How to connecta DC motor"
   },
-  "descripcion": {
-    "es": "es: Conexiones para conectar tu motor DC, NUNCA CONECTAR DIRECTO AL ARDUINO (EXCESO CORRIENTE)",
-    "fr": "fr: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores.",
-    "en": "en: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores."
-  },
+"descripcion": {
+  "es": "Este tipo de motor permite controlar el movimiento dividiendo cada vuelta en pequeñas partes llamadas pasos. Por ejemplo, en el modelo 28BYJ-48 se requieren 2048 pasos para completar una vuelta. Este tipo de motor requiere un driver, que normalmente se compra junto con el motor. Los materiales, el código y el diagrama de conexión se encuentran en el PDF descargable. Se recomienda proporcionar una alimentación adicional para un funcionamiento adecuado, de entre 6 y 9 volts en el pin Vin del Arduino (nunca en el puerto de 5V).",
+  "fr": "Ce type de moteur permet de contrôler le mouvement en divisant chaque rotation en petites parties appelées pas. Par exemple, pour le modèle 28BYJ-48, 2048 pas sont nécessaires pour effectuer une rotation complète. Ce type de moteur nécessite un driver, qui est généralement vendu avec le moteur. Les matériaux, le code et le schéma de connexion se trouvent dans le PDF téléchargeable. Il est recommandé de fournir une alimentation supplémentaire pour un fonctionnement correct, entre 6 et 9 volts sur la broche Vin de l'Arduino (jamais sur le port 5V).",
+  "en": "This type of motor allows motion to be controlled by dividing each rotation into small parts called steps. For example, in the 28BYJ-48 model, 2048 steps are required to complete a full rotation. This type of motor requires a driver, which is usually purchased together with the motor. The materials, code, and wiring diagram can be found in the downloadable PDF. It is recommended to provide an additional power supply for proper operation, between 6 and 9 volts on the Arduino Vin pin (never on the 5V port)."
+},
     "etiquetas": {
     "es": ["Electronica", "Programacion", "STEAM"],
     "fr": ["Electronique", "Prgorammation", "STEAM"],
     "en": ["Electronics", "Programming", "STEAM"]
     },
   "img-video": [
-    "/img/proyectos/DCMotor/MotorAmarillo.png"
+    "/img/proyectos/Motorpasos/MOTORP-D.png"
   ],
-  "recursos": ["https://drive.google.com/file/d/14z-rzB6AuEadTDo2v6C6oOUPNky9kjus/view?usp=sharing", "https://drive.google.com/file/d/1S9w7ZREus4M7A0c3GxIH_dLaQ1oKDclU/view?usp=sharing"],
-  "descargas": "https://drive.google.com/drive/folders/1DABzNYm5xs_gd5azo46OoqhFh1AKh_bi"
+  "recursos": ["COMING SOON", "https://ko-fi.com/sheinventor"],
+  "descargas": ""
 }

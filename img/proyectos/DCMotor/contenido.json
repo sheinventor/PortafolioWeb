@@ -1,15 +1,15 @@
 {
   "id": "DCMotor",
 "nombre": {
-    "es": "Conecta un motor DC",
+    "es": "Como conectar un motor DC",
     "fr": "Comment brancher un moteur DC",
     "en": "How to connecta DC motor"
   },
-  "descripcion": {
-    "es": "es: Conexiones para conectar tu motor DC, NUNCA CONECTAR DIRECTO AL ARDUINO (EXCESO CORRIENTE)",
-    "fr": "fr: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores.",
-    "en": "en: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci aut sequi esse voluptatum et dolore? Repellat magni dignissimos libero quasi assumenda esse nostrum, voluptatibus, earum nisi, laborum at vel accusamus iste unde suscipit molestias! Illum vel quo laborum esse eum placeat accusamus dignissimos repudiandae atque? Tenetur ipsam, autem sed rem sapiente, nobis debitis qui quisquam cum ipsa doloribus ducimus, eos accusamus quas dicta doloremque nam est aliquam laboriosam? Quaerat accusamus voluptatem dolorem quae ea similique eius libero facilis asperiores."
-  },
+"descripcion": {
+  "es": "Nunca conectes directamente un motor DC al Arduino, ya que existe riesgo de daños en la placa. Este tipo de motor puede girar de manera indefinida y rápida en una dirección u otra según su conexión. Para controlar este motor es necesario utilizar un driver o un circuito de control adecuado. En este ejemplo se utiliza un circuito con un transistor 2N2222 para controlar el encendido del motor. Ojo: en este ejemplo el motor solo puede girar en una dirección. Para poder controlar el sentido de giro se requiere un driver o un puente H (pero esa es otra historia). Los materiales, el código y el diagrama de conexión se encuentran en el PDF descargable. Se recomienda utilizar una alimentación adicional para un funcionamiento adecuado, de entre 6 y 9 volts en el pin Vin del Arduino (nunca en el puerto de 5V).",
+  "fr": "Ne connectez jamais directement un moteur DC à l'Arduino, car cela peut endommager la carte. Ce type de moteur peut tourner indéfiniment et rapidement dans une direction ou l'autre selon sa connexion. Pour contrôler ce moteur, il est nécessaire d'utiliser un driver ou un circuit de contrôle approprié. Dans cet exemple, un circuit avec un transistor 2N2222 est utilisé pour contrôler l'activation du moteur. Attention : dans cet exemple, le moteur ne peut tourner que dans une seule direction. Pour contrôler le sens de rotation, il faut utiliser un driver ou un pont en H (mais c'est une autre histoire). Les matériaux, le code et le schéma de connexion se trouvent dans le PDF téléchargeable. Il est recommandé d'utiliser une alimentation supplémentaire pour un fonctionnement correct, entre 6 et 9 volts sur la broche Vin de l'Arduino (jamais sur le port 5V).",
+  "en": "Never connect a DC motor directly to an Arduino, as it may damage the board. This type of motor can spin continuously and quickly in one direction or the other depending on its connection. To control this motor, it is necessary to use a driver or an appropriate control circuit. In this example, a circuit using a 2N2222 transistor is used to control the motor. Note: in this example the motor can only rotate in one direction. To control the direction of rotation, a driver or an H-bridge is required (but that is another story). The materials, code, and wiring diagram can be found in the downloadable PDF. It is recommended to use an additional power supply for proper operation, between 6 and 9 volts on the Arduino Vin pin (never on the 5V port)."
+},
     "etiquetas": {
     "es": ["Electronica", "Programacion", "STEAM"],
     "fr": ["Electronique", "Prgorammation", "STEAM"],
@@ -18,6 +18,6 @@
   "img-video": [
     "/img/proyectos/DCMotor/MotorAmarillo.png"
   ],
-  "recursos": ["https://drive.google.com/file/d/14z-rzB6AuEadTDo2v6C6oOUPNky9kjus/view?usp=sharing", "https://drive.google.com/file/d/1S9w7ZREus4M7A0c3GxIH_dLaQ1oKDclU/view?usp=sharing"],
-  "descargas": "https://drive.google.com/drive/folders/1DABzNYm5xs_gd5azo46OoqhFh1AKh_bi"
+  "recursos": ["COMING SOON", "https://ko-fi.com/sheinventor"],
+  "descargas": ""
 }
