@@ -44,5 +44,21 @@
       "en": ["Electronics", "Programming", "STEAM"]
     },
     "img": "/img/proyectos/Servomotor/motors.png"
+  },
+
+  {
+    "id": "Calendar",
+    "nombre": {
+        "es": "Calendario Habitos",
+        "fr": "Habit Tracker",
+        "en": "Habit Tracker"
+      },
+    "etiquetas": {
+      "es": ["Organizacion", "TDHA"],
+      "fr": ["Organisation", "TDAH"],
+      "en": ["Organisation", "ADHD"]
+    },
+    "img": "/img/proyectos/Calendar/calendar.png"
   }
+
 ]

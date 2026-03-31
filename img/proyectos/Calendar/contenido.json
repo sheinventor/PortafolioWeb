@@ -1,0 +1,23 @@
+{
+  "id": "Calendar",
+"nombre": {
+    "es": "Calendario Habitos",
+    "fr": "Habit Tracker",
+    "en": "Habit Tracker"
+  },
+"descripcion": {
+  "es": "Descargable, sirve para trackear habitos en los dias de un año.",
+  "fr": ".",
+  "en": ")."
+},
+    "etiquetas": {
+    "es": ["Organizacion", "TDHA"],
+    "fr": ["Organization", "TDAH"],
+    "en": ["Electronics", "ADHD"]
+    },
+  "img-video": [
+    "/img/proyectos/Calendar/calendar.png"
+  ],
+  "recursos": ["Ayudame !", "https://ko-fi.com/sheinventor"],
+  "descargas": "https://drive.google.com/file/d/1TQgKEBdOvu9c2fBuBe_cSjhnE47dO0Uz/view?usp=drive_link"
+}
